@@ -12,7 +12,6 @@ const JobListings = ({ isHome = false }) => {
             try {
                 const res = await fetch(apiUrl);
                 const data = await res.json();
-                console.log(data);
                 setJobs(data);
             } catch (err) {
                 console.log('Error fetching jobs data', err);
