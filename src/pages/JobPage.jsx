@@ -51,10 +51,8 @@ const JobPage = () => {
                                 <p className="mb-4">{job.salary} / Year</p>
                             </div>
                         </main>
-
                         {/* Sidebar */}
                         <aside>
-                            {/* Company Info */}
                             <div className="bg-white p-6 rounded-lg shadow-md">
                                 <h3 className="text-xl font-bold mb-6">
                                     Company Info
@@ -80,7 +78,6 @@ const JobPage = () => {
                                     {job.company.contactPhone}
                                 </p>
                             </div>
-
                             {/* Manage */}
                             <div className="bg-white p-6 rounded-lg shadow-md mt-6">
                                 <h3 className="text-xl font-bold mb-6">
