@@ -22,6 +22,14 @@ https://github.com/GenadiKozarev/react-jobs-board/assets/84446009/eecc830f-6908-
 
 This project uses JSON-Server for a mock backend.
 
+Routes:
+```
+/jobs
+/jobs/:id
+/add-job
+/edit-job/:id
+```
+
 ### Install Dependencies
 
 ```bash
